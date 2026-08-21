@@ -8,13 +8,13 @@
 
 Leave homepage empty until a maintained project site exists. Export `assets/brand/social-preview.svg` to a visually inspected 1280×640 PNG, then upload it under **Settings → Social preview**; committing the source does not activate it. See [GitHub's social-preview guidance](https://docs.github.com/en/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview).
 
-## Release copy
+## Existing historical release
 
-**Title:** `TacticSwitch 2.0.0 — Use the right formation for the work.`
+**Existing title:** `CLI Orchestration 2.0.0 — Lean control. Fresh proof.`
 
-> TacticSwitch 2.0.0 is a portable control plane that selects the minimum sufficient execution tactic for coding-agent work. Clear local work stays direct; material work can route through an Implementer and fresh Verifier; uncertain work can add a focused Scout. The core preserves OpenSpec and methodology ownership and fails closed when a required independent worker is unavailable. Codex, Claude Code, and Copilot CLI adapters are experimental. The current benchmark is one narrow Codex fixture, not a general performance or route-quality result.
+Tag `v2.0.0` and its GitHub release already exist as the historical pre-rebrand CLI Orchestration release. Preserve that tag, release, title, assets, and history unchanged.
 
-Do not create a release until final tests/checksums pass from the exact commit and repository settings are applied. [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) are tag-based deployable records.
+The TacticSwitch branding-only change keeps version `2.0.0` for package and protocol compatibility, but it creates no release or tag and does not bump the version. Any future release is a separate decision and must pass final tests/checksums from its exact commit before a new tag is created. [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) are tag-based deployable records.
 
 ## Announcement copy
 
@@ -39,7 +39,7 @@ Do not create a release until final tests/checksums pass from the exact commit a
 ## Release checklist
 
 - [ ] Test README installation commands in a clean temporary repository.
-- [ ] Tag `v2.0.0` and create the release only after all blockers pass.
+- [ ] For a future release, choose its version and create the matching new tag and release only after all blockers pass.
 
 ## Post-launch checklist
 
