@@ -1,0 +1,7 @@
+name = "reviewer"
+description = "Legacy optional high-assurance Reviewer profile; prefer fresh Verifier."
+sandbox_mode = "read-only"
+
+developer_instructions = """
+Legacy optional high-assurance review profile retained for migration compatibility. Normal routes use a fresh Verifier. Read the active orchestrator-work-protocol before dispatch.
+"""

@@ -1,0 +1,326 @@
+{
+  "generated_at": "2026-08-20T23:59:55.931489+00:00",
+  "nodes": {
+    "docs_architecture_architecture": {
+      "code_fingerprint": "2d3eb90b92c24183bd6f6b7f990fe328151855c89663d79a70ab647f904bfd7d",
+      "label": "Architecture",
+      "last": "2026-08-20T21:51:27.009012+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T21:51:27.009012+00:00",
+          "outcome": "useful",
+          "q": "Explain the current cli-orchestration focus and how it should change under the new lean policy"
+        }
+      ],
+      "score": 0.99794062,
+      "source_file": "docs/ARCHITECTURE.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "docs_openspec_integration_acceptance_semantics": {
+      "code_fingerprint": "96e340f9a0b0103a4d2f71259b0270e20dd19a2093250ca6fde1e5fd86b7c7d9",
+      "label": "OpenSpec Progress Versus Orchestration Acceptance",
+      "last": "2026-08-20T17:50:17.245941+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T17:50:17.245941+00:00",
+          "outcome": "useful",
+          "q": "What is the estimated progress of the tasks?"
+        }
+      ],
+      "score": 0.994086576,
+      "source_file": "docs/OPENSPEC-INTEGRATION.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "docs_openspec_integration_openspec_integration": {
+      "code_fingerprint": "96e340f9a0b0103a4d2f71259b0270e20dd19a2093250ca6fde1e5fd86b7c7d9",
+      "label": "OpenSpec Integration",
+      "last": "2026-08-20T22:21:40.956217+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T22:21:40.956217+00:00",
+          "outcome": "useful",
+          "q": "How should cli-orchestration adopt v2 KISS patterns while remaining a portable pure-orchestrator framework?"
+        },
+        {
+          "date": "2026-08-20T21:51:27.009012+00:00",
+          "outcome": "useful",
+          "q": "Explain the current cli-orchestration focus and how it should change under the new lean policy"
+        },
+        {
+          "date": "2026-08-16T04:22:42.496132+00:00",
+          "outcome": "useful",
+          "q": "Does this project support development frameworks and TDD, parallel dependency-aware task execution and verification, and Claude Code CLI or Copilot CLI?"
+        },
+        {
+          "date": "2026-08-16T04:10:45.626359+00:00",
+          "outcome": "useful",
+          "q": "Read all about this project and learn deeply how it works and what it currently stands for, including trustworthy current web context."
+        }
+      ],
+      "score": 3.785519766,
+      "source_file": "docs/OPENSPEC-INTEGRATION.md",
+      "status": "preferred",
+      "uses": 4
+    },
+    "docs_source_verification_source_verification": {
+      "code_fingerprint": "2ea4221954d0b04c95b971727ff9b4eb4b50fa2aff4dce60c4fd69cc8a6905a5",
+      "label": "Source Verification",
+      "last": "2026-08-16T04:10:45.626359+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-16T04:10:45.626359+00:00",
+          "outcome": "useful",
+          "q": "Read all about this project and learn deeply how it works and what it currently stands for, including trustworthy current web context."
+        }
+      ],
+      "score": 0.894491416,
+      "source_file": "docs/SOURCE-VERIFICATION.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "docs_troubleshooting_role_runtime_boundary": {
+      "code_fingerprint": "6abbc41056495423e89aa0e6269cbe8c3f4aa8175772b886330377bf440f1286",
+      "label": "Role Instructions and Runtime Permission Boundary",
+      "last": "2026-08-16T04:55:49.710465+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-16T04:55:49.710465+00:00",
+          "outcome": "useful",
+          "q": "Those will use the general-purpose? There's similar tool like general-purpose available on all three tools? This would make it simpler or more complex?"
+        }
+      ],
+      "score": 0.895138475,
+      "source_file": "docs/TROUBLESHOOTING.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "install_installation": {
+      "code_fingerprint": "6970c4df84d679ca65b7ebb64dc52a8cc21580c33dadf66dba6ec5e515a0fd6e",
+      "label": "Installation Guide",
+      "last": "2026-08-20T21:51:27.009012+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T21:51:27.009012+00:00",
+          "outcome": "useful",
+          "q": "Explain the current cli-orchestration focus and how it should change under the new lean policy"
+        },
+        {
+          "date": "2026-08-16T04:47:00.379235+00:00",
+          "outcome": "useful",
+          "q": "With all those issues raised by the questions, picking each problem or gap one by one, what is the simplest change or improvement that fix it? (Use the pattern KISS to think about it)"
+        },
+        {
+          "date": "2026-08-16T04:10:45.626359+00:00",
+          "outcome": "useful",
+          "q": "Read all about this project and learn deeply how it works and what it currently stands for, including trustworthy current web context."
+        }
+      ],
+      "score": 2.787443811,
+      "source_file": "INSTALL.md",
+      "status": "preferred",
+      "uses": 3
+    },
+    "manifest": {
+      "code_fingerprint": "61639d41c06e1bd09082f1d024be267f2e8a86bd1d16dbd0c4e472285ae0b821",
+      "label": "manifest.json",
+      "last": "2026-08-20T17:50:17.245941+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T17:50:17.245941+00:00",
+          "outcome": "useful",
+          "q": "What is the estimated progress of the tasks?"
+        },
+        {
+          "date": "2026-08-16T04:47:00.379235+00:00",
+          "outcome": "useful",
+          "q": "With all those issues raised by the questions, picking each problem or gap one by one, what is the simplest change or improvement that fix it? (Use the pattern KISS to think about it)"
+        }
+      ],
+      "score": 1.889098351,
+      "source_file": "manifest.json",
+      "status": "preferred",
+      "uses": 2
+    },
+    "readme_codex_cli_openspec_pure_orchestration_standard": {
+      "code_fingerprint": "2228a4ac9bdf032e79f0689876574a03a56ac9669c405e885d9eae1c7ae03b58",
+      "label": "Codex CLI and OpenSpec Pure-Orchestration Standard",
+      "last": "2026-08-16T04:10:45.626359+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-16T04:10:45.626359+00:00",
+          "outcome": "useful",
+          "q": "Read all about this project and learn deeply how it works and what it currently stands for, including trustworthy current web context."
+        }
+      ],
+      "score": 0.894491416,
+      "source_file": "README.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "readme_framework_independence": {
+      "code_fingerprint": "2228a4ac9bdf032e79f0689876574a03a56ac9669c405e885d9eae1c7ae03b58",
+      "label": "Framework Independence",
+      "last": "2026-08-20T22:21:40.956217+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T22:21:40.956217+00:00",
+          "outcome": "useful",
+          "q": "How should cli-orchestration adopt v2 KISS patterns while remaining a portable pure-orchestrator framework?"
+        },
+        {
+          "date": "2026-08-20T21:51:27.009012+00:00",
+          "outcome": "useful",
+          "q": "Explain the current cli-orchestration focus and how it should change under the new lean policy"
+        },
+        {
+          "date": "2026-08-16T04:47:00.379235+00:00",
+          "outcome": "useful",
+          "q": "With all those issues raised by the questions, picking each problem or gap one by one, what is the simplest change or improvement that fix it? (Use the pattern KISS to think about it)"
+        },
+        {
+          "date": "2026-08-16T04:22:42.496132+00:00",
+          "outcome": "useful",
+          "q": "Does this project support development frameworks and TDD, parallel dependency-aware task execution and verification, and Claude Code CLI or Copilot CLI?"
+        }
+      ],
+      "score": 3.786040124,
+      "source_file": "README.md",
+      "status": "preferred",
+      "uses": 4
+    },
+    "readme_pure_control_plane_orchestrator": {
+      "code_fingerprint": "2228a4ac9bdf032e79f0689876574a03a56ac9669c405e885d9eae1c7ae03b58",
+      "label": "Pure Control-Plane Orchestrator",
+      "last": "2026-08-20T22:21:40.956217+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T22:21:40.956217+00:00",
+          "outcome": "useful",
+          "q": "How should cli-orchestration adopt v2 KISS patterns while remaining a portable pure-orchestrator framework?"
+        }
+      ],
+      "score": 0.99842482,
+      "source_file": "README.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "templates_skills_orchestrator_work_protocol_references_control_packets_control_packet_contract": {
+      "code_fingerprint": "a913cd42a0689d3957de58b69e2874b2beba30c1ea524bf832b7f74b9b9f57e2",
+      "label": "Control Packet Contract",
+      "last": "2026-08-16T04:55:49.710465+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-16T04:55:49.710465+00:00",
+          "outcome": "useful",
+          "q": "Those will use the general-purpose? There's similar tool like general-purpose available on all three tools? This would make it simpler or more complex?"
+        },
+        {
+          "date": "2026-08-16T04:47:00.379235+00:00",
+          "outcome": "useful",
+          "q": "With all those issues raised by the questions, picking each problem or gap one by one, what is the simplest change or improvement that fix it? (Use the pattern KISS to think about it)"
+        }
+      ],
+      "score": 1.79015025,
+      "source_file": "templates/skills/orchestrator-work-protocol/references/control-packets.md",
+      "status": "preferred",
+      "uses": 2
+    },
+    "templates_skills_orchestrator_work_protocol_references_protocol_acceptance_gates": {
+      "code_fingerprint": "e9152f5d986567e6bd7156b9f11cb8eddb473b682e8f0749798e7182dd1d36ff",
+      "label": "Review Validation and Audit Acceptance Gates",
+      "last": "2026-08-20T17:50:17.245941+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T17:50:17.245941+00:00",
+          "outcome": "useful",
+          "q": "What is the estimated progress of the tasks?"
+        },
+        {
+          "date": "2026-08-16T04:55:49.710465+00:00",
+          "outcome": "useful",
+          "q": "Those will use the general-purpose? There's similar tool like general-purpose available on all three tools? This would make it simpler or more complex?"
+        },
+        {
+          "date": "2026-08-16T04:47:00.379235+00:00",
+          "outcome": "useful",
+          "q": "With all those issues raised by the questions, picking each problem or gap one by one, what is the simplest change or improvement that fix it? (Use the pattern KISS to think about it)"
+        },
+        {
+          "date": "2026-08-16T04:22:42.496132+00:00",
+          "outcome": "useful",
+          "q": "Does this project support development frameworks and TDD, parallel dependency-aware task execution and verification, and Claude Code CLI or Copilot CLI?"
+        }
+      ],
+      "score": 3.678899736,
+      "source_file": "templates/skills/orchestrator-work-protocol/references/protocol.md",
+      "status": "preferred",
+      "uses": 4
+    },
+    "templates_skills_orchestrator_work_protocol_references_protocol_role_separation": {
+      "code_fingerprint": "e9152f5d986567e6bd7156b9f11cb8eddb473b682e8f0749798e7182dd1d36ff",
+      "label": "Six-Role Separation",
+      "last": "2026-08-16T04:55:49.710465+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-16T04:55:49.710465+00:00",
+          "outcome": "useful",
+          "q": "Those will use the general-purpose? There's similar tool like general-purpose available on all three tools? This would make it simpler or more complex?"
+        }
+      ],
+      "score": 0.895138475,
+      "source_file": "templates/skills/orchestrator-work-protocol/references/protocol.md",
+      "status": "tentative",
+      "uses": 1
+    },
+    "templates_skills_orchestrator_work_protocol_references_protocol_universal_protocol": {
+      "code_fingerprint": "e9152f5d986567e6bd7156b9f11cb8eddb473b682e8f0749798e7182dd1d36ff",
+      "label": "Universal Codex CLI Pure-Orchestrator Work Protocol",
+      "last": "2026-08-20T22:21:40.956217+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-20T22:21:40.956217+00:00",
+          "outcome": "useful",
+          "q": "How should cli-orchestration adopt v2 KISS patterns while remaining a portable pure-orchestrator framework?"
+        },
+        {
+          "date": "2026-08-20T21:51:27.009012+00:00",
+          "outcome": "useful",
+          "q": "Explain the current cli-orchestration focus and how it should change under the new lean policy"
+        },
+        {
+          "date": "2026-08-16T04:22:42.496132+00:00",
+          "outcome": "useful",
+          "q": "Does this project support development frameworks and TDD, parallel dependency-aware task execution and verification, and Claude Code CLI or Copilot CLI?"
+        },
+        {
+          "date": "2026-08-16T04:10:45.626359+00:00",
+          "outcome": "useful",
+          "q": "Read all about this project and learn deeply how it works and what it currently stands for, including trustworthy current web context."
+        }
+      ],
+      "score": 3.785519766,
+      "source_file": "templates/skills/orchestrator-work-protocol/references/protocol.md",
+      "status": "preferred",
+      "uses": 4
+    },
+    "usage_generic_material_task": {
+      "code_fingerprint": "d4417b14b8947b5ffee5618d8c0f97c36a1aea198f843bcb97e7edfa92d05889",
+      "label": "Generic Material Task Workflow",
+      "last": "2026-08-16T04:47:00.379235+00:00",
+      "provenance": [
+        {
+          "date": "2026-08-16T04:47:00.379235+00:00",
+          "outcome": "useful",
+          "q": "With all those issues raised by the questions, picking each problem or gap one by one, what is the simplest change or improvement that fix it? (Use the pattern KISS to think about it)"
+        }
+      ],
+      "score": 0.895011775,
+      "source_file": "USAGE.md",
+      "status": "tentative",
+      "uses": 1
+    }
+  },
+  "version": 1
+}

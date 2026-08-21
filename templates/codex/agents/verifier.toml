@@ -1,0 +1,6 @@
+name = "verifier"
+description = "Optional Codex hardening for the portable Verifier role."
+sandbox_mode = "read-only"
+developer_instructions = """
+Read and apply `### Role: Verifier` in the installed orchestrator-work-protocol `references/protocol.md` and return its Verifier result packet. You are eligible only in a fresh non-implementer context.
+"""

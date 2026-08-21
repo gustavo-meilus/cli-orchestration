@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-20",
+  "fixture": "benchmarks/simple-add",
+  "cli": "codex-cli 0.148.0",
+  "matched_initial_behavior": "add(2, 3) incorrectly returns -1; one unittest expects 5",
+  "sandbox": "danger-full-access limited to automatically removed temporary fixture copies",
+  "routes": [
+    {
+      "route": "A_DIRECT",
+      "status": "COMPLETED",
+      "correctness_test_passed": true,
+      "elapsed_seconds": 21.481,
+      "turns": 1,
+      "tool_calls": 4,
+      "observable_test_runs": 2,
+      "observable_repeated_file_reads": 0,
+      "rework_cycles": 0,
+      "changed_files": [
+        "calculator.py"
+      ],
+      "diff_churn_file_count": 1,
+      "user_interventions": 0,
+      "verifier_caught_defects": 0,
+      "telemetry": {
+        "input_tokens": 88140,
+        "output_tokens": 436,
+        "cached_input_tokens": 70400,
+        "cost": "unavailable"
+      },
+      "process_exit_code": 0,
+      "timed_out": false,
+      "final_message_or_blocker": "BENCH_A_DONE",
+      "unparsed_output_lines": [],
+      "assessment_excerpt": "test_adds_two_integers (test_calculator.CalculatorTests.test_adds_two_integers) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\n"
+    },
+    {
+      "route": "B_IMPLEMENTER_VERIFIER",
+      "status": "BLOCKED",
+      "correctness_test_passed": false,
+      "elapsed_seconds": 26.79,
+      "turns": 1,
+      "tool_calls": 1,
+      "observable_test_runs": 1,
+      "observable_repeated_file_reads": 0,
+      "rework_cycles": 0,
+      "changed_files": [],
+      "diff_churn_file_count": 0,
+      "user_interventions": 0,
+      "verifier_caught_defects": 0,
+      "telemetry": {
+        "input_tokens": 56632,
+        "output_tokens": 596,
+        "cached_input_tokens": 45312,
+        "cost": "unavailable"
+      },
+      "process_exit_code": 0,
+      "timed_out": false,
+      "final_message_or_blocker": "BENCH_B_BLOCKED \u2014 required Implementer unavailable: `collab spawn failed: no thread with id: 01a021d0-50c6-75d1-bd83-26d73057181f`",
+      "unparsed_output_lines": [],
+      "assessment_excerpt": "test_adds_two_integers (test_calculator.CalculatorTests.test_adds_two_integers) ... FAIL\n\n======================================================================\nFAIL: test_adds_two_integers (test_calculator.CalculatorTests.test_adds_two_integers)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\gmeil\\AppData\\Local\\Temp\\cli-orchestration-routes-hq7ve_y9\\b_implementer_verifier\\test_calculator.py\", line 8, in test_adds_two_integers\n    self.assertEqual(add(2, 3), 5)\nAssertionError: -1 != 5\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n"
+    },
+    {
+      "route": "C_SCOUT_IMPLEMENTER_VERIFIER",
+      "status": "BLOCKED",
+      "correctness_test_passed": false,
+      "elapsed_seconds": 26.413,
+      "turns": 1,
+      "tool_calls": 1,
+      "observable_test_runs": 1,
+      "observable_repeated_file_reads": 0,
+      "rework_cycles": 0,
+      "changed_files": [],
+      "diff_churn_file_count": 0,
+      "user_interventions": 0,
+      "verifier_caught_defects": 0,
+      "telemetry": {
+        "input_tokens": 56742,
+        "output_tokens": 615,
+        "cached_input_tokens": 45312,
+        "cost": "unavailable"
+      },
+      "process_exit_code": 0,
+      "timed_out": false,
+      "final_message_or_blocker": "BENCH_C_BLOCKED \u2014 required Scout unavailable: `collab spawn failed: no thread with id: 01a021d0-ba62-72e0-846b-38e255a4e866`",
+      "unparsed_output_lines": [],
+      "assessment_excerpt": "test_adds_two_integers (test_calculator.CalculatorTests.test_adds_two_integers) ... FAIL\n\n======================================================================\nFAIL: test_adds_two_integers (test_calculator.CalculatorTests.test_adds_two_integers)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\gmeil\\AppData\\Local\\Temp\\cli-orchestration-routes-hq7ve_y9\\c_scout_implementer_verifier\\test_calculator.py\", line 8, in test_adds_two_integers\n    self.assertEqual(add(2, 3), 5)\nAssertionError: -1 != 5\n\n----------------------------------------------------------------------\nRan 1 test in 0.001s\n\nFAILED (failures=1)\n"
+    }
+  ],
+  "limitations": [
+    "Cost telemetry is unavailable from codex exec JSONL.",
+    "Repeated reads, test runs, tool calls, and verifier defects count only observable JSONL events.",
+    "A BLOCKED orchestrated route is field evidence for worker availability, not correctness evidence for a completed topology."
+  ]
+}

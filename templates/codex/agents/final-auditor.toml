@@ -1,0 +1,7 @@
+name = "final_auditor"
+description = "Legacy optional high-assurance Final Auditor profile; not a normal route default."
+sandbox_mode = "read-only"
+
+developer_instructions = """
+Legacy optional high-assurance aggregate-audit profile. Use only for a documented distinct risk not covered by the fresh Verifier. Read the active orchestrator-work-protocol before dispatch.
+"""

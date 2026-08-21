@@ -1,0 +1,7 @@
+name = "inspector"
+description = "Legacy optional high-assurance Inspector profile; not a normal route default."
+sandbox_mode = "read-only"
+
+developer_instructions = """
+Legacy optional high-assurance discovery profile. Use only for a documented distinct risk or compatibility workflow; normal uncertainty uses the portable Scout role. Read the active orchestrator-work-protocol before dispatch.
+"""

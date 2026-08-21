@@ -1,0 +1,100 @@
+{
+  "name": "cli-orchestration",
+  "version": "2.0.0",
+  "schema_version": 2,
+  "architecture": "portable-adaptive-pure-orchestrator",
+  "default_tools": ["codex"],
+  "public_entries": ["orchestrator-work-protocol", "openspec-orchestrated-apply"],
+  "managed_agents_md_markers": [
+    "<!-- BEGIN ORCHESTRATOR-STANDARD -->",
+    "<!-- END ORCHESTRATOR-STANDARD -->"
+  ],
+  "default_max_concurrent_threads_per_session": 3,
+  "openspec_generated_files_owned_by_package": false,
+  "canonical_resources": [
+    "templates/skills/orchestrator-work-protocol",
+    "templates/skills/openspec-orchestrated-apply",
+    "templates/project/AGENTS.block.md",
+    "templates/project/ORCHESTRATION.md"
+  ],
+  "adapters": {
+    "codex": {
+      "status": "experimental",
+      "generic_agent": "default",
+      "explicit_entry": "$orchestrator-work-protocol",
+      "scopes": ["user", "project"],
+      "resources": ["templates/adapters/codex.md"],
+      "native_hardening": {
+        "available": true,
+        "resources": ["templates/codex/agents"]
+      },
+      "verification": {
+        "source_urls": [
+          "https://developers.openai.com/codex/subagents/",
+          "https://developers.openai.com/codex/guides/agents-md/",
+          "https://developers.openai.com/codex/skills/",
+          "https://developers.openai.com/codex/config-reference/"
+        ],
+        "verified_date": "2026-08-20",
+        "cli_version": "codex-cli 0.148.0",
+        "fresh_process_smoke": "failed",
+        "evidence_gap": "2026-08-20 fresh project process discovered the skill but failed generic Scout creation because no collaboration thread existed; it returned CODEX_SMOKE_BLOCKED without direct fallback."
+      }
+    },
+    "claude": {
+      "status": "experimental",
+      "generic_agent": "general-purpose",
+      "explicit_entry": "/orchestrator-work-protocol",
+      "scopes": ["user", "project"],
+      "resources": ["templates/adapters/claude.md", "templates/adapters/claude-bridge.md"],
+      "native_hardening": {
+        "available": false,
+        "resources": []
+      },
+      "verification": {
+        "source_urls": [
+          "https://code.claude.com/docs/en/sub-agents",
+          "https://code.claude.com/docs/en/claude-directory",
+          "https://code.claude.com/docs/en/skills"
+        ],
+        "verified_date": "2026-08-20",
+        "cli_version": "2.1.237 (Claude Code)",
+        "fresh_process_smoke": "failed",
+        "evidence_gap": "2026-08-20 fresh project process stopped before skill discovery because organization subscription access was disabled; generic-worker and fail-closed routing remain unverified."
+      }
+    },
+    "copilot": {
+      "status": "experimental",
+      "generic_agent": "general-purpose",
+      "explicit_entry": "orchestrator-work-protocol",
+      "scopes": ["user", "project"],
+      "resources": ["templates/adapters/copilot.md"],
+      "native_hardening": {
+        "available": false,
+        "resources": []
+      },
+      "verification": {
+        "source_urls": [
+          "https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/invoke-custom-agents",
+          "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills",
+          "https://docs.github.com/en/copilot/concepts/agents/copilot-cli/fleet"
+        ],
+        "verified_date": "2026-08-20",
+        "cli_version": null,
+        "fresh_process_smoke": "not-run",
+        "evidence_gap": "Copilot CLI is unavailable in the validation environment, so all native fresh-process checks remain unrun."
+      }
+    }
+  },
+  "legacy_codex_profiles": {
+    "ownership": "preserve-on-upgrade",
+    "resources": [
+      "inspector.toml",
+      "planner.toml",
+      "executor.toml",
+      "reviewer.toml",
+      "validator.toml",
+      "final-auditor.toml"
+    ]
+  }
+}

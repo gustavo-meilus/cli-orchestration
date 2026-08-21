@@ -1,0 +1,5 @@
+interface:
+  display_name: "Lean Orchestrate"
+  short_description: "Explicit, cost-aware Codex subagent coordination"
+policy:
+  allow_implicit_invocation: false

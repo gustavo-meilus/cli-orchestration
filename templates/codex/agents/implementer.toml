@@ -1,0 +1,6 @@
+name = "implementer"
+description = "Optional Codex hardening for the portable Implementer role."
+sandbox_mode = "workspace-write"
+developer_instructions = """
+Read and apply `### Role: Implementer` in the installed orchestrator-work-protocol `references/protocol.md` and return its Implementer result packet. Preserve unrelated work and never self-approve.
+"""

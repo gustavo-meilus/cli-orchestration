@@ -1,0 +1,122 @@
+{
+  "manifest.json": {
+    "mtime": 1786816690.6032443,
+    "ast_hash": "b19d3c79e2700a7f04d7e5084eb652cb",
+    "semantic_hash": "b19d3c79e2700a7f04d7e5084eb652cb"
+  },
+  "scripts/install.ps1": {
+    "mtime": 1786816690.676551,
+    "ast_hash": "6f8f229245f72af23771d9e46a7edd75",
+    "semantic_hash": "6f8f229245f72af23771d9e46a7edd75"
+  },
+  "scripts/install.py": {
+    "mtime": 1786816690.692011,
+    "ast_hash": "48de300b10f188567453f961157c8c28",
+    "semantic_hash": "48de300b10f188567453f961157c8c28"
+  },
+  "scripts/install.sh": {
+    "mtime": 1786816690.7053957,
+    "ast_hash": "d4114e8546d37eb6075deaa88428355e",
+    "semantic_hash": "d4114e8546d37eb6075deaa88428355e"
+  },
+  "scripts/verify.ps1": {
+    "mtime": 1786816690.7146502,
+    "ast_hash": "0ce62187b2af60870a50d19cb9ae685b",
+    "semantic_hash": "0ce62187b2af60870a50d19cb9ae685b"
+  },
+  "scripts/verify.sh": {
+    "mtime": 1786816690.7239814,
+    "ast_hash": "dacf7c8cedc8b72e3171d40f0a3a42d6",
+    "semantic_hash": "dacf7c8cedc8b72e3171d40f0a3a42d6"
+  },
+  "scripts/verify_install.py": {
+    "mtime": 1786816690.7333477,
+    "ast_hash": "dde6130ff010ae5afeab66a5f4d533b9",
+    "semantic_hash": "dde6130ff010ae5afeab66a5f4d533b9"
+  },
+  "CHANGELOG.md": {
+    "mtime": 1786816690.5568147,
+    "ast_hash": "28f8e9dd1f2226c17dd7f721cf7ad10c",
+    "semantic_hash": "28f8e9dd1f2226c17dd7f721cf7ad10c"
+  },
+  "INSTALL.md": {
+    "mtime": 1786816690.5644958,
+    "ast_hash": "e90d4e38d433f3a0422eadca040a8d0f",
+    "semantic_hash": "e90d4e38d433f3a0422eadca040a8d0f"
+  },
+  "README.md": {
+    "mtime": 1786839777.9469647,
+    "ast_hash": "32b2093766d6d5f0421604227fdaab01",
+    "semantic_hash": "32b2093766d6d5f0421604227fdaab01"
+  },
+  "USAGE.md": {
+    "mtime": 1786816690.58885,
+    "ast_hash": "f6dff890bbe441b39669e41632c2561e",
+    "semantic_hash": "f6dff890bbe441b39669e41632c2561e"
+  },
+  "docs/ADOPTION-PLAN.md": {
+    "mtime": 1786816690.6186314,
+    "ast_hash": "3f7c6737ad3c24260744209f65d097af",
+    "semantic_hash": "3f7c6737ad3c24260744209f65d097af"
+  },
+  "docs/ARCHITECTURE.md": {
+    "mtime": 1786816690.6263661,
+    "ast_hash": "a0fe86cb414558a4f372fe988430914e",
+    "semantic_hash": "a0fe86cb414558a4f372fe988430914e"
+  },
+  "docs/GOVERNANCE.md": {
+    "mtime": 1786816690.6325612,
+    "ast_hash": "ba51cd8de29ebf634908d32dfbb61433",
+    "semantic_hash": "ba51cd8de29ebf634908d32dfbb61433"
+  },
+  "docs/OPENSPEC-INTEGRATION.md": {
+    "mtime": 1786816690.640818,
+    "ast_hash": "e69fbd73d4d35e0487575b6227db8991",
+    "semantic_hash": "e69fbd73d4d35e0487575b6227db8991"
+  },
+  "docs/SOURCE-VERIFICATION.md": {
+    "mtime": 1786816690.6485724,
+    "ast_hash": "69f6070627b38181842fa0be970797a8",
+    "semantic_hash": "69f6070627b38181842fa0be970797a8"
+  },
+  "docs/TROUBLESHOOTING.md": {
+    "mtime": 1786816690.6562903,
+    "ast_hash": "f5608917657d4dcef9fa017187d45ef3",
+    "semantic_hash": "f5608917657d4dcef9fa017187d45ef3"
+  },
+  "docs/WORKFLOW.md": {
+    "mtime": 1786816690.6639593,
+    "ast_hash": "525df35b27cd5e08554e1e806b3a00cb",
+    "semantic_hash": "525df35b27cd5e08554e1e806b3a00cb"
+  },
+  "templates/project/AGENTS.block.md": {
+    "mtime": 1786816690.8330162,
+    "ast_hash": "fda10ee99e00bc5cb44511c610800e84",
+    "semantic_hash": "fda10ee99e00bc5cb44511c610800e84"
+  },
+  "templates/skills/openspec-orchestrated-apply/SKILL.md": {
+    "mtime": 1786816690.854454,
+    "ast_hash": "da4cddd133c0ba3cf96327e7a71d5a93",
+    "semantic_hash": "da4cddd133c0ba3cf96327e7a71d5a93"
+  },
+  "templates/skills/openspec-orchestrated-apply/references/workflow.md": {
+    "mtime": 1786816690.8698552,
+    "ast_hash": "cd720a9298a33c2532318650f5ac19f4",
+    "semantic_hash": "cd720a9298a33c2532318650f5ac19f4"
+  },
+  "templates/skills/orchestrator-work-protocol/SKILL.md": {
+    "mtime": 1786816690.8851757,
+    "ast_hash": "f25b2a0ab56a0810e791637423d29b52",
+    "semantic_hash": "f25b2a0ab56a0810e791637423d29b52"
+  },
+  "templates/skills/orchestrator-work-protocol/references/control-packets.md": {
+    "mtime": 1786816690.8989913,
+    "ast_hash": "fc12efa578e29fe571ee2263a87fe91a",
+    "semantic_hash": "fc12efa578e29fe571ee2263a87fe91a"
+  },
+  "templates/skills/orchestrator-work-protocol/references/protocol.md": {
+    "mtime": 1786816690.909915,
+    "ast_hash": "0503d341dab11fbb618b7158f813a673",
+    "semantic_hash": "0503d341dab11fbb618b7158f813a673"
+  }
+}

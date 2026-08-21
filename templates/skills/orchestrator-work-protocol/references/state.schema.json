@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cli-orchestration.local/schemas/state-v2.json",
+  "title": "Optional portable orchestration state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "workflow_id", "route", "owner", "next_gate", "batches"],
+  "properties": {
+    "schema_version": {"type": "integer", "const": 2},
+    "workflow_id": {"$ref": "#/$defs/reference"},
+    "route": {"enum": ["READ_ONLY", "IMPLEMENTER_VERIFIER", "SCOUT_IMPLEMENTER_VERIFIER", "HIGH_ASSURANCE"]},
+    "owner": {"$ref": "#/$defs/reference"},
+    "next_gate": {"$ref": "#/$defs/reference"},
+    "batches": {"type": "array", "items": {"$ref": "#/$defs/batch"}}
+  },
+  "$defs": {
+    "reference": {"type": "string", "minLength": 1, "maxLength": 512},
+    "batch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "objective", "status", "dependencies", "owned_paths", "assigned_context", "evidence_refs", "rework_count"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1, "maxLength": 128},
+        "objective": {"type": "string", "minLength": 1, "maxLength": 1024},
+        "status": {"enum": ["PENDING", "RECONCILE", "READY", "IMPLEMENTING", "IMPLEMENTED", "VERIFYING", "REWORK", "ACCEPTED", "BLOCKED", "SUPERSEDED"]},
+        "dependencies": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 128}},
+        "owned_paths": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/reference"}},
+        "assigned_context": {"anyOf": [{"$ref": "#/$defs/reference"}, {"type": "null"}]},
+        "evidence_refs": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/reference"}},
+        "rework_count": {"type": "integer", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+name = "planner"
+description = "Legacy optional high-assurance Planner profile; not a normal route default."
+sandbox_mode = "read-only"
+
+developer_instructions = """
+Legacy optional high-assurance planning profile. Use only for a documented distinct planning risk; approved framework artifacts remain authoritative. Read the active orchestrator-work-protocol before dispatch.
+"""

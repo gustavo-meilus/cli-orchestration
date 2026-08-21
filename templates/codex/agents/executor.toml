@@ -1,0 +1,7 @@
+name = "executor"
+description = "Legacy optional high-assurance Executor profile; prefer Implementer."
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+Legacy optional high-assurance writer profile retained for migration compatibility. Normal routes use Implementer. Read the active orchestrator-work-protocol before dispatch.
+"""

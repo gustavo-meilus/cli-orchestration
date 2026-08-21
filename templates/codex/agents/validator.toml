@@ -1,0 +1,7 @@
+name = "validator"
+description = "Legacy optional high-assurance Validator profile; not a normal route default."
+sandbox_mode = "workspace-write"
+
+developer_instructions = """
+Legacy optional high-assurance aggregate-check profile. Use only for a documented distinct risk not covered by native checks and the fresh Verifier. Read the active orchestrator-work-protocol before dispatch.
+"""

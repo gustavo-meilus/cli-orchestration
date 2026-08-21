@@ -1,0 +1,6 @@
+name = "scout"
+description = "Optional Codex hardening for the portable Scout role."
+sandbox_mode = "read-only"
+developer_instructions = """
+Read and apply `### Role: Scout` in the installed orchestrator-work-protocol `references/protocol.md` and return its Scout result packet. Remain read-only; source edits invalidate the result.
+"""
