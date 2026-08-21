@@ -1,8 +1,12 @@
 # Changelog
 
-## 2.0.0 - 2026-08-20
+## Unreleased
 
-- Renamed the public project and package identity to TacticSwitch while preserving public skill identifiers and protocol compatibility.
+- Renamed the public project and package identity from CLI Orchestration to TacticSwitch while preserving public skill identifiers and protocol compatibility.
+- Preserved the existing `v2.0.0` tag and release as pre-rebrand history; this branding change creates no release, tag, or version bump.
+
+## 2.0.0 - 2026-08-20 — CLI Orchestration
+
 - Replaced the mandatory six-role default with adaptive direct, read-only, Implementer → Verifier, and Scout → Implementer → Verifier routes.
 - Preserved a pure primary control plane whenever orchestration is active.
 - Added CLI-neutral Scout, Implementer, and fresh-Verifier contracts, context-affinity batching, one-writer ownership, bounded rework, and fail-closed worker availability.
@@ -17,6 +21,6 @@
 
 Superseded. Required the six-role pure-orchestrator workflow and introduced portable adapters/state v1.
 
-## 1.0.0 - 2026-08-15
+## 1.0.0 - 2026-08-15 — CLI Orchestration
 
-Initial TacticSwitch Codex/OpenSpec orchestration package.
+Initial Codex/OpenSpec orchestration package.
