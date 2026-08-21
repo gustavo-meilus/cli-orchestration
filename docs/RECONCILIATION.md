@@ -1,15 +1,15 @@
 # Release 2.0 Reconciliation Map
 
-Status: implementation evidence for `align-portable-lean-orchestration`.
+Status: historical implementation evidence for the completed and archived `align-portable-lean-orchestration` change. Current runtime authority is the shipped release surface and canonical specs under `openspec/specs/`.
 
 ## Baselines
 
 | Input | Identity | Role in this change |
 |---|---|---|
-| Current repository | working tree inspected 2026-08-20; no `.git` metadata available | Portable multi-CLI source to retain and adapt conservatively |
+| Current repository | release 2.0.0 source; Git initialized after implementation | Portable multi-CLI runtime authority, subject to executable tests and manifests |
 | Archived change | `openspec/changes/archive/2026-08-20-simplify-cross-cli-orchestration/` | Historical planning input only; never runtime authority |
 | Lean v2 package | `codex-openspec-lean-orchestration-v2.0.0.zip`, SHA-256 `d2285c8c9bd71b5e323f4eb42281794bd25fa9b5fd517eb8a9d6b53b2feb756d`, rechecked 2026-08-20 | Lean Codex-first implementation input, not an overlay or authority |
-| Active change | `openspec/changes/align-portable-lean-orchestration/` | Target planning input and governing implementation contract |
+| Archived change | `openspec/changes/archive/2026-08-20-align-portable-lean-orchestration/` | Completed planning and verification record; no longer an active change |
 
 The expanded v2 directory has the Windows `ReadOnly` attribute. Its repeat-install behavior is therefore a required regression fixture, not a source attribute to propagate into installed files.
 
@@ -19,7 +19,7 @@ The expanded v2 directory has the Windows `ReadOnly` attribute. Its repeat-insta
 |---|---|---|---|
 | `AGENTS.md` | repository contributor policy | retain | Keep repository-local execution policy distinct from the installed runtime block. |
 | `.agents/skills/openspec-*` | canonical OpenSpec | retain byte-for-byte | Excluded from package ownership, installation, migration, and shadow copies. |
-| `openspec/changes/align-portable-lean-orchestration/**` | target planning input | retain | Drives this implementation; later sync/archive remains canonical OpenSpec work. |
+| `openspec/changes/archive/2026-08-20-align-portable-lean-orchestration/**` | completed planning record | retain | Historical evidence only; canonical specs and shipped behavior govern current use. |
 | `openspec/changes/archive/**` | historical planning input | retain | Never installed or treated as current behavior. |
 | `templates/skills/orchestrator-work-protocol/**` | package portable core | adapt | Replace six-role default with ordered adaptive routing, three normal roles, compact packets, and optional state v2. |
 | `templates/skills/openspec-orchestrated-apply/**` | package integration bridge | adapt | Preserve the public name while delegating apply/verify semantics to canonical OpenSpec skills. |

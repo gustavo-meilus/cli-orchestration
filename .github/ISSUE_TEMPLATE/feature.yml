@@ -1,0 +1,33 @@
+name: Improvement proposal
+description: Propose a focused improvement with a measurable reason
+title: "[Proposal]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user job or failure cannot be handled well today?
+    validations:
+      required: true
+  - type: textarea
+    id: simplest
+    attributes:
+      label: Simplest useful change
+      description: Why is existing direct or native behavior insufficient?
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Ownership and compatibility boundaries
+      description: Note affected CLIs, frameworks, contracts, and non-goals.
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Acceptance evidence
+      description: What evidence would show the change is worthwhile?
+    validations:
+      required: true

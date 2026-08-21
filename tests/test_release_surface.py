@@ -6,6 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 import unittest
+import xml.etree.ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,24 @@ class ReleaseSurfaceTests(unittest.TestCase):
     def test_release_checksums_are_current(self) -> None:
         result = subprocess.run([sys.executable, "-B", str(ROOT / "scripts/checksums.py"), "--verify"], cwd=ROOT, text=True, capture_output=True, check=False)
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_public_launch_surface_is_present_and_vector_assets_parse(self) -> None:
+        for relative in (
+            "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md",
+            ".github/ISSUE_TEMPLATE/bug.yml", ".github/ISSUE_TEMPLATE/feature.yml",
+            ".github/PULL_REQUEST_TEMPLATE.md", "docs/BRAND.md", "docs/LAUNCH.md",
+        ):
+            self.assertTrue((ROOT / relative).is_file(), relative)
+        for svg in sorted((ROOT / "assets" / "brand").glob("*.svg")):
+            root = ET.parse(svg).getroot()
+            self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg", svg.name)
+            self.assertIn("viewBox", root.attrib, svg.name)
+
+    def test_readme_keeps_claim_limits_adjacent(self) -> None:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn("all three adapters are **experimental**", readme)
+        self.assertIn("does **not** compare completed route quality", readme)
+        self.assertIn("Licensed under the [MIT License](LICENSE)", readme)
 
 
 if __name__ == "__main__":

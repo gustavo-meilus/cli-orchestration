@@ -10,12 +10,19 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "MANIFEST.sha256"
-TOP_LEVEL = ("README.md", "USAGE.md", "INSTALL.md", "CHANGELOG.md", "VERSION", "manifest.json")
+TOP_LEVEL = (
+    "README.md", "USAGE.md", "INSTALL.md", "CHANGELOG.md",
+    "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md",
+    "LICENSE", "VERSION", "manifest.json",
+)
 
 
 def release_files() -> list[Path]:
     files = [ROOT / name for name in TOP_LEVEL]
-    for directory in (ROOT / "benchmarks", ROOT / "docs", ROOT / "scripts", ROOT / "templates"):
+    for directory in (
+        ROOT / ".github", ROOT / "assets", ROOT / "benchmarks",
+        ROOT / "docs", ROOT / "scripts", ROOT / "templates",
+    ):
         files.extend(path for path in directory.rglob("*") if path.is_file())
     return sorted(
         path for path in files
