@@ -1,0 +1,14 @@
+interface:
+  display_name: OpenSpec Brainstorming
+  short_description: Turn exploration into an approved OpenSpec change
+  default_prompt: Use $openspec-brainstorming to refine this explored idea into a
+    validated OpenSpec proposal.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

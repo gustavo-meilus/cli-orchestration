@@ -1,0 +1,14 @@
+interface:
+  display_name: OpenSpec Change Grill
+  short_description: Stress-test a change before implementation
+  default_prompt: Use $openspec-grill-change to stress-test this completed OpenSpec
+    change before implementation.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
