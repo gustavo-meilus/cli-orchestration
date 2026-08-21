@@ -1,21 +1,21 @@
-<p align="center"><img src="assets/brand/hero.svg" width="760" alt="CLI Orchestration — Lean control. Fresh proof. A central control node routes work only to necessary execution and verification paths."></p>
+<p align="center"><img src="assets/brand/hero.svg" width="760" alt="TacticSwitch — Use the right formation for the work. A switch selects the minimum sufficient execution route."></p>
 
-# CLI Orchestration
+# TacticSwitch
 
-**Lean control. Fresh proof.**
+**Use the right formation for the work.**
 
-A portable, CLI-neutral control plane for development work that is too risky or uncertain for one model context—and no ceremony for work that is not. It brings one lean routing contract to Codex CLI, Claude Code, and GitHub Copilot CLI without replacing your methodology or task system.
+A portable, CLI-neutral control plane that chooses the minimum sufficient execution tactic for each development task. Clear local work stays direct; material or uncertain work gets only the independent contexts it needs. TacticSwitch brings that lean routing contract to Codex CLI, Claude Code, and GitHub Copilot CLI without replacing your methodology or task system.
 
 [Quick start](#quick-start) · [Routing](#how-it-routes) · [Evidence](#proof-with-boundaries) · [Compatibility](#compatibility) · [Docs](#go-deeper) · [Contributing](CONTRIBUTING.md)
 
 > [!IMPORTANT]
 > Release 2.0.0 is ready for evaluation, not a claim of production-proven multi-CLI support; all three adapters are **experimental**. The only recorded route benchmark is a narrow Codex fixture, and its orchestrated routes were blocked by unavailable collaboration threads.
 
-## Stop paying the orchestration tax on every task
+## Stop using one formation for every task
 
 Agent workflows often choose between one overloaded context—including self-review—or a committee of fresh agents for every change. The first weakens independence; the second multiplies reads, handoffs, latency, tokens, and conflict risk.
 
-CLI Orchestration uses the **minimum sufficient topology**:
+TacticSwitch uses the **minimum sufficient topology**:
 
 ```text
 clear + local + low risk                → direct execution

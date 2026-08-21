@@ -2,6 +2,7 @@
 
 ## 2.0.0 - 2026-08-20
 
+- Renamed the public project and package identity to TacticSwitch while preserving public skill identifiers and protocol compatibility.
 - Replaced the mandatory six-role default with adaptive direct, read-only, Implementer → Verifier, and Scout → Implementer → Verifier routes.
 - Preserved a pure primary control plane whenever orchestration is active.
 - Added CLI-neutral Scout, Implementer, and fresh-Verifier contracts, context-affinity batching, one-writer ownership, bounded rework, and fail-closed worker availability.
@@ -18,4 +19,4 @@ Superseded. Required the six-role pure-orchestrator workflow and introduced port
 
 ## 1.0.0 - 2026-08-15
 
-Initial Codex/OpenSpec orchestration package.
+Initial TacticSwitch Codex/OpenSpec orchestration package.

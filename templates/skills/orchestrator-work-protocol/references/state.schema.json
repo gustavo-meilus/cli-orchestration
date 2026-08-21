@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cli-orchestration.local/schemas/state-v2.json",
+  "$id": "https://tacticswitch.local/schemas/state-v2.json",
   "title": "Optional portable orchestration state",
   "type": "object",
   "additionalProperties": false,

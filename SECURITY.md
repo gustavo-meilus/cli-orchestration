@@ -6,7 +6,7 @@ Before the first public release, only current `main` is considered for security 
 
 ## Reporting a vulnerability
 
-Do not open a public issue. Use **Report a vulnerability** on the repository Security tab, or open the [private vulnerability report form](https://github.com/gustavo-meilus/cli-orchestration/security/advisories/new) directly.
+Do not open a public issue. Use **Report a vulnerability** on the repository Security tab, or open the [private vulnerability report form](https://github.com/gustavo-meilus/tacticswitch/security/advisories/new) directly.
 
 Include the affected version/commit, impact, reproduction steps, and suggested mitigation. The acknowledgement target is seven days; this is not a remediation guarantee.
 

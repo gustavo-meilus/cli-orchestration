@@ -1,6 +1,6 @@
 # OpenSpec Integration
 
-OpenSpec owns proposal, specifications, design, tasks, apply, verification, sync, archive, and `.agents/skills/openspec-*`. CLI Orchestration owns only route selection, context assignment, dependency/ownership coordination, and route acceptance.
+OpenSpec owns proposal, specifications, design, tasks, apply, verification, sync, archive, and `.agents/skills/openspec-*`. TacticSwitch owns only route selection, context assignment, dependency/ownership coordination, and route acceptance.
 
 ## Routes
 

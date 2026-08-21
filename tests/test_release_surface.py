@@ -35,8 +35,19 @@ class ReleaseSurfaceTests(unittest.TestCase):
             self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg", svg.name)
             self.assertIn("viewBox", root.attrib, svg.name)
 
+    def test_public_identity_is_tacticswitch(self) -> None:
+        manifest = (ROOT / "manifest.json").read_text(encoding="utf-8")
+        self.assertIn('"name": "tacticswitch"', manifest)
+        for relative in ("README.md", "CONTRIBUTING.md", "docs/BRAND.md", "docs/LAUNCH.md"):
+            surface = (ROOT / relative).read_text(encoding="utf-8")
+            self.assertIn("TacticSwitch", surface, relative)
+            self.assertNotIn("CLI Orchestration", surface, relative)
+        self.assertIn("github.com/gustavo-meilus/tacticswitch", (ROOT / "SECURITY.md").read_text(encoding="utf-8"))
+
     def test_readme_keeps_claim_limits_adjacent(self) -> None:
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn("# TacticSwitch", readme)
+        self.assertIn("Use the right formation for the work.", readme)
         self.assertIn("all three adapters are **experimental**", readme)
         self.assertIn("does **not** compare completed route quality", readme)
         self.assertIn("Licensed under the [MIT License](LICENSE)", readme)

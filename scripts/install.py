@@ -230,7 +230,7 @@ def main() -> int:
                 for filename in NORMAL_AGENT_FILES:
                     write_owned_file(TEMPLATES / "codex/agents" / filename, tool_root / "agents" / filename, args.dry_run)
 
-    install_record = {"package": "cli-orchestration", "version": VERSION, "scope": args.scope, "tools": args.tools}
+    install_record = {"package": "tacticswitch", "version": VERSION, "scope": args.scope, "tools": args.tools}
     write_owned_bytes((json.dumps(install_record, indent=2) + "\n").encode(), root / ".orchestration/install.json", args.dry_run)
     print("Installation complete. Run scripts/verify_install.py with the same --scope/--tool selection.")
     return 0

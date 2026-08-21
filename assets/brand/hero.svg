@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc"><title id="title">CLI Orchestration — Lean control. Fresh proof.</title><desc id="desc">A central control node routes only necessary implementation and verification paths.</desc><defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#111e34"/></linearGradient></defs><rect width="1280" height="400" rx="36" fill="url(#bg)"/><g transform="translate(92 72)"><path d="M84 44H36v58h48M84 212H36v-58h48M204 44h48v58h-48" fill="none" stroke="#43536d" stroke-width="12" stroke-linecap="round"/><path d="M116 128H84V73M116 128H84v55M172 128h32V73" fill="none" stroke="#61e6b2" stroke-width="12" stroke-linecap="round"/><circle cx="144" cy="128" r="42" fill="#61e6b2"/><circle cx="144" cy="128" r="15" fill="#0b1220"/><circle cx="84" cy="73" r="12" fill="#61e6b2"/><circle cx="84" cy="183" r="12" fill="#61e6b2"/><circle cx="204" cy="73" r="12" fill="#eef4ff"/></g><g fill="#eef4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><text x="450" y="172" font-size="66" font-weight="700">CLI Orchestration</text><text x="454" y="230" font-size="32" fill="#61e6b2">Lean control. Fresh proof.</text><text x="454" y="278" font-size="23" fill="#9fb0ca">A portable control plane for the contexts that matter.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">TacticSwitch — Use the right formation for the work.</title>
+  <desc id="desc">A tactical switch selects the minimum sufficient execution route from direct, verified, and discovery-assisted formations.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#111e34"/></linearGradient></defs>
+  <rect width="1280" height="400" rx="36" fill="url(#bg)"/>
+  <g transform="translate(78 72)">
+    <path d="M30 128h90M165 128l94-91h45M165 128h139M165 128l94 91h45" fill="none" stroke="#43536d" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M30 128h135l94-91h45" fill="none" stroke="#61e6b2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M143 101l27 27-27 27-27-27z" fill="#61e6b2"/>
+    <circle cx="304" cy="37" r="14" fill="#eef4ff"/><circle cx="304" cy="128" r="11" fill="#43536d"/><circle cx="304" cy="219" r="11" fill="#43536d"/>
+  </g>
+  <g fill="#eef4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="465" y="165" font-size="70" font-weight="700">TacticSwitch</text>
+    <text x="469" y="225" font-size="31" fill="#61e6b2">Use the right formation for the work.</text>
+    <text x="469" y="276" font-size="23" fill="#9fb0ca">The minimum sufficient execution tactic, selected task by task.</text>
+  </g>
+</svg>

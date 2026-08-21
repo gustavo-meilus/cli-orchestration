@@ -184,7 +184,7 @@ def main() -> int:
     if not codex:
         raise SystemExit("BLOCKED: codex CLI is unavailable")
     version = subprocess.run([codex, "--version"], text=True, capture_output=True, check=False).stdout.strip()
-    with tempfile.TemporaryDirectory(prefix="cli-orchestration-routes-") as temporary:
+    with tempfile.TemporaryDirectory(prefix="tacticswitch-routes-") as temporary:
         parent = Path(temporary)
         results = [run_route(codex, route, prompt, parent) for route, prompt in ROUTES.items()]
     payload = {
