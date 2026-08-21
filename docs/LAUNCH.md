@@ -10,9 +10,9 @@ Leave homepage empty until a maintained project site exists. Export `assets/bran
 
 ## Existing historical release
 
-**Existing title:** `CLI Orchestration 2.0.0 — Lean control. Fresh proof.`
+**Existing release:** `v2.0.0 — Lean control. Fresh proof.`
 
-Tag `v2.0.0` and its GitHub release already exist as the historical pre-rebrand CLI Orchestration release. Preserve that tag, release, title, assets, and history unchanged.
+Tag `v2.0.0` and its GitHub release already exist under the historical pre-rebrand project identity. Preserve that tag, release, title, assets, and history unchanged.
 
 The TacticSwitch branding-only change keeps version `2.0.0` for package and protocol compatibility, but it creates no release or tag and does not bump the version. Any future release is a separate decision and must pass final tests/checksums from its exact commit before a new tag is created. [GitHub releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) are tag-based deployable records.
 
