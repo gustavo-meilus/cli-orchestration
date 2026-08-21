@@ -29,10 +29,10 @@ Do not create a release until final tests/checksums pass from the exact commit a
 ## Manual publication checklist
 
 - [x] Add the [MIT License](../LICENSE) with SPDX-standard license text.
-- [ ] Confirm the public owner/name and remote; apply the description and focused [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
-- [ ] Confirm private vulnerability reporting is enabled and the direct link in `SECURITY.md` opens the private report form.
+- [x] Publish the public repository at [gustavo-meilus/cli-orchestration](https://github.com/gustavo-meilus/cli-orchestration) with the description and focused [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+- [x] Enable private vulnerability reporting and link the private report form from `SECURITY.md`.
 - [ ] Export/upload the social preview and verify a shared-link preview.
-- [ ] Confirm `main`, intentional branch protection/rules, and only maintainable repository features.
+- [x] Set `main` as default; block force-pushes and deletion; require linear history and resolved review conversations; disable Wiki and Projects.
 - [ ] Run full tests and `python scripts/checksums.py --verify` from the exact release commit.
 - [ ] Test README installation commands in a clean temporary repository.
 - [ ] Confirm every adapter label matches `manifest.json`.
