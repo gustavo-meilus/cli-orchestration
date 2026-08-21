@@ -26,17 +26,23 @@ Do not create a release until final tests/checksums pass from the exact commit a
 
 > I built TacticSwitch after seeing agent workflows optimize for either one overloaded context or a mandatory committee pipeline. Clear local work stays direct; material behavior changes use one Implementer and a fresh Verifier; a Scout appears only when discovery can prevent churn. It is deliberately a pure control plane, so OpenSpec, TDD, or another task system keeps owning the development method. The adapters are experimental, and the current real benchmark is narrow: direct mode completed one Codex fixture while orchestrated routes failed closed when collaboration threads were unavailable. I’m looking for reproducible field evidence, especially cases where fresh verification changes the outcome.
 
-## Manual publication checklist
+## Rebrand checklist
 
 - [x] Add the [MIT License](../LICENSE) with SPDX-standard license text.
-- [ ] Publish the renamed public repository at [gustavo-meilus/tacticswitch](https://github.com/gustavo-meilus/tacticswitch) with the description and focused [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
+- [x] Publish the renamed public repository at [gustavo-meilus/tacticswitch](https://github.com/gustavo-meilus/tacticswitch) with the documented description and focused [topics](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics).
 - [x] Enable private vulnerability reporting and link the private report form from `SECURITY.md`.
 - [ ] Export/upload the social preview and verify a shared-link preview.
 - [x] Set `main` as default; block force-pushes and deletion; require linear history and resolved review conversations; disable Wiki and Projects.
-- [ ] Run full tests and `python scripts/checksums.py --verify` from the exact release commit.
+- [x] Validate the exact rebrand commit with the full test suite and `python scripts/checksums.py --verify`.
+- [x] Confirm every adapter label matches `manifest.json`.
+
+## Release checklist
+
 - [ ] Test README installation commands in a clean temporary repository.
-- [ ] Confirm every adapter label matches `manifest.json`.
 - [ ] Tag `v2.0.0` and create the release only after all blockers pass.
+
+## Post-launch checklist
+
 - [ ] Publish channel-specific posts with the real release URL and one specific evidence request.
 - [ ] Watch first-user install failures, documentation gaps, and worker-availability reports.
 
