@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping make CLI Orchestration smaller, more portable, and better evidenced.
+Thanks for helping make TacticSwitch smaller, more portable, and better evidenced.
 
 ## Before opening a change
 
@@ -26,4 +26,4 @@ Keep one coherent responsibility per pull request. Explain the user problem, aut
 
 By participating, follow [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Report vulnerabilities through [SECURITY.md](SECURITY.md), not a public issue.
 
-> This repository has no license yet. Contributions should not be solicited or merged for a public launch until the maintainer selects one and confirms contribution terms.
+Contributions are accepted under the repository's [MIT License](LICENSE).

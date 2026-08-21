@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 180" role="img" aria-labelledby="title desc"><title id="title">CLI Orchestration</title><desc id="desc">CLI Orchestration wordmark with a central control node routing necessary paths.</desc><rect width="860" height="180" rx="28" fill="#0b1220"/><path d="M74 49H48v32h26M74 131H48V99h26M132 49h26v32h-26" fill="none" stroke="#43536d" stroke-width="7" stroke-linecap="round"/><path d="M89 90H74V65M89 90H74v50M111 90h21V65" fill="none" stroke="#61e6b2" stroke-width="7" stroke-linecap="round"/><circle cx="100" cy="90" r="20" fill="#61e6b2"/><circle cx="100" cy="90" r="7" fill="#0b1220"/><g fill="#eef4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><text x="198" y="88" font-size="48" font-weight="700">CLI Orchestration</text><text x="201" y="126" font-size="22" fill="#9fb0ca">Lean control. Fresh proof.</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 180" role="img" aria-labelledby="title desc">
+  <title id="title">TacticSwitch</title>
+  <desc id="desc">TacticSwitch wordmark beside a switch selecting the minimum sufficient execution route.</desc>
+  <rect width="860" height="180" rx="28" fill="#0b1220"/>
+  <g transform="translate(38 35) scale(.47)">
+    <path d="M38 128h58M126 128l62-66h30M126 128h92M126 128l62 66h30" fill="none" stroke="#43536d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 128h88l62-66h30" fill="none" stroke="#61e6b2" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 104l24 24-24 24-24-24z" fill="#61e6b2"/>
+    <circle cx="218" cy="62" r="11" fill="#eef4ff"/><circle cx="218" cy="128" r="9" fill="#43536d"/><circle cx="218" cy="194" r="9" fill="#43536d"/>
+  </g>
+  <g fill="#eef4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="180" y="86" font-size="52" font-weight="700">TacticSwitch</text>
+    <text x="183" y="126" font-size="22" fill="#9fb0ca">Use the right formation for the work.</text>
+  </g>
+</svg>

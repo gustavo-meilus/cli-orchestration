@@ -23,7 +23,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: CLI Orchestration version or commit
+      label: TacticSwitch version or commit
     validations:
       required: true
   - type: dropdown

@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc"><title id="title">CLI Orchestration mark</title><desc id="desc">A calm central control node routes to three endpoints, with only necessary paths active.</desc><rect width="256" height="256" rx="52" fill="#0b1220"/><path d="M72 62H42v40h30M72 194H42v-40h30M184 62h30v40h-30" fill="none" stroke="#43536d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M92 128H72V82M92 128H72v92M146 128h38V82" fill="none" stroke="#61e6b2" stroke-width="10" stroke-linecap="round"/><circle cx="116" cy="128" r="30" fill="#61e6b2"/><circle cx="116" cy="128" r="11" fill="#0b1220"/><circle cx="72" cy="82" r="10" fill="#61e6b2"/><circle cx="72" cy="220" r="10" fill="#61e6b2"/><circle cx="184" cy="82" r="10" fill="#eef4ff"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">TacticSwitch mark</title>
+  <desc id="desc">A tactical switch selects one mint route from three possible execution formations.</desc>
+  <rect width="256" height="256" rx="52" fill="#0b1220"/>
+  <path d="M38 128h58M126 128l62-66h30M126 128h92M126 128l62 66h30" fill="none" stroke="#43536d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 128h88l62-66h30" fill="none" stroke="#61e6b2" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 104l24 24-24 24-24-24z" fill="#61e6b2"/>
+  <circle cx="218" cy="62" r="11" fill="#eef4ff"/>
+  <circle cx="218" cy="128" r="9" fill="#43536d"/>
+  <circle cx="218" cy="194" r="9" fill="#43536d"/>
+</svg>

@@ -2,21 +2,21 @@
 
 ## Brand core
 
-**Name:** CLI Orchestration. Keep `cli-orchestration` and the public skill identifiers unchanged.
+**Name:** TacticSwitch. Use `tacticswitch` for the repository and package identity. Keep the public skill identifiers unchanged for compatibility.
 
-**Tagline:** **Lean control. Fresh proof.**
+**Tagline:** **Use the right formation for the work.**
 
-**Positioning:** CLI Orchestration is a portable control plane for maintainers using coding-agent CLIs that adds only the independent model contexts a task materially needs, without replacing the development framework or turning every change into a committee pipeline.
+**Positioning:** TacticSwitch is a portable control plane for maintainers using coding-agent CLIs that selects the minimum sufficient execution tactic and adds only the independent model contexts a task materially needs, without replacing the development framework or turning every change into a committee pipeline.
 
 **Audience/job:** Maintainers who want fresh verification or focused discovery for material agent work, but want clear local work to stay direct.
 
-**Named failure:** **orchestration tax**—duplicate repository reads, handoffs, model turns, and conflict risk that do not materially improve the result.
+**Named failure:** **formation mismatch**—using the same execution shape for every task, either overloading one context or adding duplicate reads, handoffs, model turns, and conflict risk that do not materially improve the result.
 
 **Voice:** calm, exact, economical, evidence-led. Prefer “routes,” “records,” and “fails closed” over “revolutionizes,” “guarantees,” or “autonomous.” Put limitations in the same paragraph or table row as the claim.
 
 ## Visual system
 
-The mark is one calm control node routing only necessary paths. Mint paths are selected work; slate paths are available but deliberately unused; the light endpoint represents fresh verification.
+The mark is a tactical switch selecting one necessary route from several possible formations. Mint is the selected route; slate paths are available but deliberately unused; the light endpoint represents fresh verification. The angled switch and route geometry connect the identity to the product mechanism without using military insignia or combat imagery.
 
 | Token | Value | Use |
 |---|---|---|
@@ -40,4 +40,4 @@ Use deterministic SVG sources from `assets/brand/`. Preserve generous padding an
 | Orchestrated routes fail closed | Raw benchmark | One environment without collaboration threads | “In the recorded run, B/C returned `BLOCKED` without direct fallback.” |
 | Release assets are reproducible | `MANIFEST.sha256` verification | Integrity is not authenticity or native compatibility | “A deterministic checksum manifest covers the release surface.” |
 
-Never shorten `experimental` to “supported,” describe the benchmark as a completed route-quality comparison, imply parallel writes are conflict-free, or call the repository open source before a license is added.
+Never shorten `experimental` to “supported,” describe the benchmark as a completed route-quality comparison, or imply parallel writes are conflict-free.

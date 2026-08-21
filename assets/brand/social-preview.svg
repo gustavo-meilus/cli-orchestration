@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc"><title id="title">CLI Orchestration social preview</title><desc id="desc">Lean control. Fresh proof. Portable orchestration using only the contexts a task needs.</desc><rect width="1280" height="640" fill="#0b1220"/><circle cx="220" cy="320" r="78" fill="#61e6b2"/><circle cx="220" cy="320" r="27" fill="#0b1220"/><path d="M142 320H92V210h72M142 320H92v220h72M298 320h78V210h72" fill="none" stroke="#61e6b2" stroke-width="20" stroke-linecap="round"/><path d="M298 320h150v220h72" fill="none" stroke="#43536d" stroke-width="20" stroke-linecap="round"/><circle cx="164" cy="210" r="18" fill="#61e6b2"/><circle cx="164" cy="540" r="18" fill="#61e6b2"/><circle cx="448" cy="210" r="18" fill="#eef4ff"/><circle cx="520" cy="540" r="18" fill="#43536d"/><g fill="#eef4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"><text x="610" y="270" font-size="62" font-weight="700">CLI Orchestration</text><text x="614" y="345" font-size="40" fill="#61e6b2">Lean control.</text><text x="614" y="398" font-size="40">Fresh proof.</text><text x="614" y="462" font-size="22" fill="#9fb0ca">Codex · Claude Code · Copilot CLI</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">TacticSwitch social preview</title>
+  <desc id="desc">Use the right formation for the work. A tactical switch selects only the execution route the task needs.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#111e34"/></linearGradient></defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <g transform="translate(62 150) scale(1.38)">
+    <path d="M38 128h58M126 128l62-66h30M126 128h92M126 128l62 66h30" fill="none" stroke="#43536d" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 128h88l62-66h30" fill="none" stroke="#61e6b2" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 104l24 24-24 24-24-24z" fill="#61e6b2"/>
+    <circle cx="218" cy="62" r="11" fill="#eef4ff"/><circle cx="218" cy="128" r="9" fill="#43536d"/><circle cx="218" cy="194" r="9" fill="#43536d"/>
+  </g>
+  <g fill="#eef4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="470" y="264" font-size="72" font-weight="700">TacticSwitch</text>
+    <text x="474" y="337" font-size="36" fill="#61e6b2">Use the right formation</text>
+    <text x="474" y="386" font-size="36">for the work.</text>
+    <text x="476" y="456" font-size="22" fill="#9fb0ca">Direct · Implementer → Verifier · Scout when needed</text>
+  </g>
+</svg>
