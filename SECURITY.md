@@ -10,4 +10,4 @@ Do not open a public issue. Use **Report a vulnerability** on the repository Sec
 
 Include the affected version/commit, impact, reproduction steps, and suggested mitigation. The acknowledgement target is seven days; this is not a remediation guarantee.
 
-Private vulnerability reports are visible only to repository maintainers until they coordinate disclosure. GitHub documents the process in [Privately reporting a security vulnerability](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/privately-reporting-a-security-vulnerability).
+Private vulnerability reports are visible only to repository maintainers until they coordinate disclosure. GitHub documents the process in [Repository security advisories](https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/repository-security-advisories).
