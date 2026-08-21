@@ -25,7 +25,7 @@ class ReleaseSurfaceTests(unittest.TestCase):
 
     def test_public_launch_surface_is_present_and_vector_assets_parse(self) -> None:
         for relative in (
-            "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md",
+            ".gitattributes", "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md",
             ".github/ISSUE_TEMPLATE/bug.yml", ".github/ISSUE_TEMPLATE/feature.yml",
             ".github/PULL_REQUEST_TEMPLATE.md", "docs/BRAND.md", "docs/LAUNCH.md",
         ):

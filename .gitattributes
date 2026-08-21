@@ -1,0 +1,9 @@
+# Release checksums are byte-for-byte, so text assets use one portable EOL.
+* text=auto eol=lf
+
+# Brand exports and other binary formats must never be normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary

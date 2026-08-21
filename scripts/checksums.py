@@ -13,7 +13,7 @@ MANIFEST = ROOT / "MANIFEST.sha256"
 TOP_LEVEL = (
     "README.md", "USAGE.md", "INSTALL.md", "CHANGELOG.md",
     "CONTRIBUTING.md", "SECURITY.md", "CODE_OF_CONDUCT.md",
-    "LICENSE", "VERSION", "manifest.json",
+    ".gitattributes", "LICENSE", "VERSION", "manifest.json",
 )
 
 
