@@ -40,6 +40,10 @@ class BenchmarkEvidenceTests(unittest.TestCase):
             self.assertIn(missing_role, route["final_message_or_blocker"])
             self.assertIn("collab spawn failed", route["final_message_or_blocker"])
 
+    def test_benchmark_harness_uses_its_running_python(self) -> None:
+        source = (ROOT / "scripts/run_route_benchmarks.py").read_text(encoding="utf-8")
+        self.assertIn("python = sys.executable", source)
+
 
 if __name__ == "__main__":
     unittest.main()

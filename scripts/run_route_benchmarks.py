@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import tempfile
 import time
 from typing import Any
@@ -107,7 +108,10 @@ def usage(events: list[dict[str, Any]]) -> dict[str, Any]:
 def run_route(codex: str, route: str, prompt: str, parent: Path) -> dict[str, Any]:
     work = parent / route.lower()
     shutil.copytree(FIXTURE, work)
-    python = shutil.which("python") or "python"
+    # Use the interpreter running this harness.  WSL/Linux commonly exposes
+    # only `python3`, while Windows often exposes `python`; relying on either
+    # command name makes the benchmark non-portable.
+    python = sys.executable
     install = subprocess.run(
         [python, "-B", str(ROOT / "scripts/install.py"), "--scope", "project", "--project", str(work), "--tool", "codex"],
         text=True, capture_output=True, check=False,
