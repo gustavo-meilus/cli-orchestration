@@ -24,9 +24,18 @@ def release_files() -> list[Path]:
         ROOT / "docs", ROOT / "scripts", ROOT / "templates",
     ):
         files.extend(path for path in directory.rglob("*") if path.is_file())
-    return sorted(
+    eligible = (
         path for path in files
-        if "__pycache__" not in path.parts and path.suffix not in {".pyc", ".pyo"} and path != MANIFEST
+        if "__pycache__" not in path.parts
+        and path.suffix not in {".pyc", ".pyo"}
+        and path != MANIFEST
+    )
+    # Sort the portable manifest by normalized POSIX-relative names.  Native
+    # Path ordering differs between Windows and Linux (notably for case),
+    # which otherwise makes a byte-exact checksum manifest platform-dependent.
+    return sorted(
+        eligible,
+        key=lambda path: path.relative_to(ROOT).as_posix().casefold(),
     )
 
 
